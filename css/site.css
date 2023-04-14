@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://matiaszozaya.com.ar/img/matiaszozaya2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0a192f;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.text-muted {
+    color: #ffffff75 !important;
+}
+
+#my-name {
+    font-size: 4.5rem;
+}
+
+#my-role {
+    font-size: 2rem;
+    margin-top: -20px !important;
+}
+
+.navbar {
+    box-shadow: 0 0 0 0 !important;
+    border: 0 !important;
+}
+
+@media (max-width: 760px) {
+    #my-name {
+        font-size: 2rem;
+    }
+
+    #my-role {
+        font-size: 1rem;
+        margin-top: 0px !important;
+    }
+}
