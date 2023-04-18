@@ -1,9 +1,7 @@
-$("main").css("min-height", "calc(100% - " + ($("header").height()) + "px)");
-$("main").css("margin-top", "-" + ($("header").height()) + "px");
+$("#hero").css("margin-top", "-" + ($("#top-links").height()) + "px");
 
 $(document).ready(function () {
     $(window).on("resize", function () {
-        $("main").css("min-height", "calc(100% - " + ($("header").height()) + "px)");
-        $("main").css("margin-top", "-" + ($("header").height()) + "px");
+        $("#hero").css("margin-top", "-" + ($("#top-links").height()) + "px");
     });
 });

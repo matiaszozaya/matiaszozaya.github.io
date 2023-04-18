@@ -32,6 +32,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- MDB ESSENTIAL -->
@@ -43,68 +45,56 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid d-flex align-items-center justify-content-end m-0 p-5">
-            <div class="me-3">
-                <span class="text-primary">var </span><span class="text-white">infoDisponible </span><span
-                    class="text-primary">=</span>
-            </div>
-            <a href="" class="me-3">
-                <span class="text-primary">${</span><span class="text-white">sobreMí</span><span class="text-primary">}</span>
-            </a>
-            <div class="text-white me-3">+</div>
-            <a href="" class="me-3">
-                <span class="text-primary">${</span><span class="text-white">experiencia</span><span
-                    class="text-primary">}</span>
-            </a>
-            <div class="text-white me-3">+</div>
-            <a href="" class="me-3">
-                <span class="text-primary">${</span><span class="text-white">contacto</span><span
-                    class="text-primary">}</span>
-            </a>
-        </div>
-    </header>
     <main>
-        <div class="row m-0 p-0" style="height: 100vh;">
-            <div class="col-12 col-lg-8 d-flex flex-column align-items-start justify-content-center m-0 p-5">
-                <div class="d-none d-md-block">
-                    <span class="text-primary">var </span><span class="text-white">bienvenida </span><span
-                        class="text-primary">= </span><span class="text-muted">"¡Hola! Mi nombre es</span>
+        <!-- Background image -->
+        <div id="intro" class="bg-image vh-100 shadow-1-strong">
+            <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
+                <source class="h-100" src="video/video.mp4" type="video/mp4" />
+            </video>
+            <div class="mask" style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) 100%);">
+                <div class="container d-flex align-items-center justify-content-start text-justify h-100">
+                    <div class="text-white">
+                        <span class="small d-block mb-2">Hola, mi nombre es</span>
+                        <h1 class="my-name text-success mb-3">Matías Zozaya</h1>
+                        <span class="d-block">Soy desarrollador Web.</span>
+                        <span class="d-block mb-4">Me especializo en crear y diseñar experiencias digitales.</span>
+                        <a class="btn btn-outline-success btn-lg m-0" href="#"
+                            role="button" rel="nofollow" target="_blank">Sobre mí</a>
+                    </div>
                 </div>
-                <span id="my-name" class="text-white fw-bold">Matias Zozaya.</span>
-                <span id="my-role" class="text-muted mb-2">Soy desarrollador web.";</span>
-                <span class="small text-success text-justify mb-4">// Me especializo en crear y diseñar experiencias
-                    digitales.<br />
-                    // Actualmente, desarrollo software para la industria Wealth-Tech.</span>
-                <button type="button" class="btn btn-outline-primary p-2" data-mdb-ripple-color="dark"
-                    data-mdb-toggle="animation" data-mdb-animation-start="onHover" data-mdb-animation-repeat="true"
-                    data-mdb-animation="pulse">
-                    ¡Contactame!
-                </button>
-            </div>
-            <div class="col-12 col-lg d-flex flex-column align-items-end justify-content-end m-0 p-5">
-                <!-- Facebook -->
-                <a class="btn text-white mb-3" style="background-color: #3b5998; width: 65px;"
-                    href="https://facebook.com/matiaszozaya" target="_blank" role="button">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <!-- Twitter -->
-                <a class="btn text-white mb-3" style="background-color: #55acee; width: 65px;"
-                    href="https://twitter.com/matias_zozaya" target="_blank" role="button">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <!-- Instagram -->
-                <a class="btn text-white mb-3" style="background-color: #ac2bac; width: 65px;"
-                    href="https://instagram.com/matiaszozaya" target="_blank" role="button">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <!-- Github -->
-                <a class="btn text-white" style="background-color: #333333; width: 65px;"
-                    href="https://github.com/matiaszozaya" target="_blank" role="button">
-                    <i class="fab fa-github"></i>
-                </a>
             </div>
         </div>
+        <!-- Background image -->
+        <!-- Section: Design Block -->
+        <section class="container p-5">
+            <div class="row">
+                <div class="col-md-3 col-lg-4 mb-5 mb-md-0">
+                    <img src="img/matiaszozaya.jpg" class="w-100 rounded-5 shadow-3-soft"
+                        alt="Avatar" />
+                </div>
+                <div class="col-md-9 col-lg-7 offset-lg-1">
+                    <h5 class="mb-4">Quien soy?</h5>
+                    <p class=" small text-justify">
+                        ¡Hola! Soy Matías Zozaya. Soy un Desarrollador Web especializado en crear experiencias digitales. Trabajo con lenguajes y frameworks como Html, Css, Bootstrap, MDB, JavaScript, jQuery, C#, ASP.NET, Razor Pages y SQL.
+                    </p>
+                    <p class="small text-justify">
+                        Soy Technical Writer, Copywriter, Diseñador, Creador de Contenido, YouTuber, Fotógrafo y Videógrafo.
+                    </p>
+                    <hr class="hr" />
+                    <h5 class="pt-2 mb-4">Mis skills</h5>
+                    <div class="d-flex align-items-center">
+                        <img src="img/svgs/html-5-svgrepo-com.svg" class="me-2" style="width: 35px;">
+                        <img src="img/svgs/css-3-svgrepo-com.svg" class="me-2" style="width: 35px;">
+                        <img src="img/svgs/js-svgrepo-com.svg" class="me-2" style="width: 35px;">
+                        <img src="img/svgs/bootstrap-fill-svgrepo-com.svg" class="me-2" style="width: 35px;">
+                        <img src="img/svgs/mdb-svgrepo-com.svg" class="border p-1 me-2" style="width: 35px;">
+                        <img src="img/svgs/csharp-svgrepo-com.svg" class="me-2" style="width: 35px;">
+                        <img src="img/svgs/dotnet-svgrepo-com.svg" class="border p-1 me-2" style="width: 35px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section: Design Block -->
     </main>
 </body>
 
