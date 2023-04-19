@@ -2,23 +2,11 @@
     font-family: 'Roboto Mono', monospace !important;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
 .text-justify {
     text-align: justify !important;
 }
 
-.text-muted {
-    color: #ffffff75 !important;
-}
-
-.row {
-    width: 100% !important;
-}
-
 .my-name {
     font-size: 4.5rem;
+    line-height: 4rem;
 }
