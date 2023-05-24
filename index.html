@@ -7,87 +7,169 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Site Title -->
-    <title>Matías Zozaya | Desarrollador Web | Creador de contenido</title>
+    <title>Matías Zozaya | Web Developer | Content Creator</title>
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://www.matiaszozaya.com.ar/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Matías Zozaya | Desarrollador Web | Creador de contenido">
-    <meta property="og:description" content="Sitio oficial de Matias Zozaya">
+    <meta property="og:title" content="Matías Zozaya | Web Developer | Content Creator">
+    <meta property="og:description" content="Matias Zozaya's Official Website">
     <meta property="og:image" content="https://www.matiaszozaya.com.ar/img/Matias-Zozaya.jpg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="matiaszozaya.com.ar">
     <meta property="twitter:url" content="https://www.matiaszozaya.com.ar/">
-    <meta name="twitter:title" content="Matías Zozaya | Desarrollador Web | Creador de contenido">
-    <meta name="twitter:description" content="Sitio oficial de Matias Zozaya">
+    <meta name="twitter:title" content="Matías Zozaya | Web Developer | Content Creator">
+    <meta name="twitter:description" content="Matias Zozaya's Official Website">
     <meta name="twitter:image" content="https://www.matiaszozaya.com.ar/img/Matias-Zozaya.jpg">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon-16x16.png" type="image/x-icon" />
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1a66ad9853.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="img/developer.png" type="image/x-icon" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Fonts Roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- MDB ESSENTIAL -->
     <link rel="stylesheet" href="css/mdb.min.css" />
-    <!-- MDB PLUGINS -->
-    <link rel="stylesheet" href="plugins/css/all.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/site.css" />
+
+    <style>
+        .card-css {
+            width: 75%;
+        }
+
+        @media(max-width: 820px) {
+            .card-css {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid d-flex align-items-center justify-content-center justify-content-md-end">
+                <div class="d-flex flex-column justify-content-center flex-md-row align-items-md-center">
+                    <a href="https://www.wealthtechs.com/Team#web-team" class="small text-muted me-md-4" target="_blank"><i class="fa-solid fa-circle-question me-2"></i>Where do I currently work?</a>
+                    <a href="https://linkedin.com/in/matiaszozaya" class="btn btn-primary m-0" target="_blank"><i class="fas fa-comments me-2"></i>Get in Touch</a>
+                </div>
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+    </header>
     <main>
-        <!-- Background image -->
-        <div id="intro" class="bg-image vh-100 shadow-1-strong">
-            <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
-                <source class="h-100" src="video/video.mp4" type="video/mp4" />
-            </video>
-            <div class="mask" style="background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8) 100%);">
-                <div class="container d-flex align-items-center justify-content-start text-justify h-100">
-                    <div class="text-white">
-                        <span class="small d-block mb-3">Hola, mi nombre es</span>
-                        <h1 class="my-name text-justify text-success mb-4">Matías Zozaya</h1>
-                        <span class="d-block mb-3 mb-md-0">Soy desarrollador Web.</span>
-                        <span class="d-block mb-4">Me especializo en crear y diseñar experiencias digitales.</span>
-                        <a class="btn btn-outline-success btn-lg m-0" href="#sobre-mi"
-                            role="button" rel="nofollow">Sobre mí</a>
+        
+        <container class="vh-100 bg-white d-flex flex-column align-items-center justify-content-center" style="background:linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25)), url(img/bg.jpg); background-size: cover;">
+            <h1 class="text-center text-primary fw-bold mb-4">Matías Zozaya</h1>
+            <h4 class="text-center text-primary fw-bold">Web Developer & Content Creator</h4>
+            <h5 class="text-center text-muted">I design and develop digital experiences.</h5>
+            <img src="img/developer.png">
+        </container>
+
+        <container class="vh-100 d-flex flex-column align-items-center justify-content-center px-3" style="background:linear-gradient(90deg, rgba(59, 98, 202, 0.75), rgba(59, 98, 202, 0.5)), url(img/bg.jpg); background-size: cover;">
+            <h1 class="text-center text-white fw-bold mb-4">Hi! I'm Matías Zozaya. Nice to meet you.</h1>
+            <h5 class="text-center text-white">I'm a Frontend Wev Developer and Content Creator specialized in creating Digital Experiences.</h5>
+            <span class="small text-center text-white">Since I began my career as an entrepreneur over 7 years ago, I have done office and remote work and collaborated with many talented colleagues.</span>
+        </container>
+
+        <container class="d-none d-md-flex bg-white d-flex flex-column align-items-center">
+            <div class="card card-css" style="margin-top: -150px; margin-bottom: 50px;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-md mb-5 mb-md-0">
+                            <div class="d-flex flex-column align-items-center jsutify-content-center">
+                                <h3 class="text-center text-primary fw-bold mb-4">Designer</h3>
+                                <div class="d-flex flex-column align-items-center jsutify-content-center mb-4">
+                                    <span class="small text-center text-muted">I love designing digital experiences, such as:</span>
+                                    <span class="text-center text-primary">UI - UX - Webs - Apps</span>
+                                </div>
+                                <div class="d-flex flex-column align-items-center jsutify-content-center">
+                                    <span class="small text-center text-muted fw-bold">Design Tools:</span>
+                                    <ul class="text-left text-primary">
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Premiere Pro</li>
+                                        <li>Davinci Resolve</li>
+                                        <li>Web-based design tools</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md mb-5 mb-md-0">
+                            <div class="d-flex flex-column align-items-center jsutify-content-center">
+                                <h3 class="text-center text-primary fw-bold mb-4">Developer</h3>
+                                <div class="d-flex flex-column align-items-center jsutify-content-center mb-4">
+                                    <span class="small text-center text-muted">I love creating things from scratch:</span>
+                                    <span class="text-center text-primary">Websites - Apps - Tools</span>
+                                </div>
+                                <div class="d-flex flex-column align-items-center jsutify-content-center">
+                                    <span class="small text-center text-muted fw-bold">Languages I speak:</span>
+                                    <ul class="text-left text-primary">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>MDB for jQuery 4 & 5</li>
+                                        <li>C# & .NET</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md mb-5 mb-md-0">
+                            <div class="d-flex flex-column align-items-center jsutify-content-center">
+                                <h3 class="text-center text-primary fw-bold mb-4">Creator</h3>
+                                <div class="d-flex flex-column align-items-center jsutify-content-center mb-4">
+                                    <span class="small text-center text-muted">I love creating content.</span>
+                                    <span class="text-center text-primary">Photos - Videos - Copywriting</span>
+                                </div>
+                                <div class="d-flex flex-column align-items-center jsutify-content-center">
+                                    <span class="small text-center text-muted fw-bold">My Creator skills:</span>
+                                    <ul class="text-left text-primary">
+                                        <li>Photographer</li>
+                                        <li>Videographer</li>
+                                        <li>YouTuber</li>
+                                        <li>Instagramer</li>
+                                        <li>Advanced Audio Editor & Producer</li>
+                                        <li>Advanced Image & Video Editor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Background image -->
+        </container>
         <!-- Section: Design Block -->
         <section id="sobre-mi" class="container p-5">
             <div class="row">
                 <div class="col-md-3 col-lg-4 mb-5 mb-md-0">
-                    <img src="img/matiaszozaya.jpg" class="w-100 rounded-5 shadow-3-soft"
-                        alt="Avatar" />
+                    <img src="img/matiaszozaya.jpg" class="w-100 rounded-5 shadow-3-soft" alt="Avatar" />
                 </div>
                 <div class="col-md-9 col-lg-7 offset-lg-1">
-                    <h5 class="mb-4">Sobre mí.</h5>
+                    <h5 class="mb-4">About me.</h5>
                     <p class=" small text-justify">
-                        ¡Hola! Soy Matías Zozaya.
+                        Hello! I'm Matías Zozaya.
                     </p>
                     <p class=" small text-justify">
-                        Soy un Desarrollador Web especializado en crear experiencias digitales.
+                        I'm a Web Developer who loves creating digital experiences.
                     </p>
                     <p class=" small text-justify">
-                        Trabajo con lenguajes y frameworks como Html, Css, Bootstrap, MDB, JavaScript, jQuery, C#, ASP.NET y Razor Pages.
+                        I work with languages and frameworks such as Html, Css, Bootstrap, MDB, JavaScript, jQuery, C#,
+                        ASP.NET and Razor Pages.
                     </p>
                     <p class="small text-justify">
-                        También soy Technical Writer, Copywriter, Diseñador, Creador de Contenido, YouTuber, Fotógrafo y Videógrafo.
+                        I'm also Technical Writer, Copywriter, Designer, Content Creator, YouTuber, Photographer &
+                        Videographer.
                     </p>
                     <hr class="hr" />
-                    <h5 class="pt-2 mb-4">Mis skills</h5>
                     <div class="d-flex align-items-center">
                         <img src="img/svgs/html-5-svgrepo-com.svg" class="me-2" style="width: 35px;">
                         <img src="img/svgs/css-3-svgrepo-com.svg" class="me-2" style="width: 35px;">
@@ -105,12 +187,10 @@
 </body>
 
 <!-- jQuery -->
-<script type="text/javascript" src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery-3.6.4.min.js"></script>
 <!-- MDB ESSENTIAL -->
-<script type="text/javascript" src="js/mdb.min.js"></script>
-<!-- MDB PLUGINS -->
-<script type="text/javascript" src="plugins/js/all.min.js"></script>
+<script src="js/mdb.min.js"></script>
 <!-- Custom Js -->
-<script type="text/javascript" src="js/site.js"></script>
+<script src="js/site.js"></script>
 
 </html>

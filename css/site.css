@@ -1,12 +1,11 @@
 * {
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+i {
+    font-family: fontawesome, sans-serif !important;
 }
 
 .text-justify {
     text-align: justify !important;
-}
-
-.my-name {
-    font-size: 4.5rem;
-    line-height: 4rem;
 }
