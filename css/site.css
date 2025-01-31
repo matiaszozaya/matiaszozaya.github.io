@@ -1,9 +1,9 @@
 * {
-    font-family: monospace;
+    font-family: "Roboto", serif;
 }
 
 i {
-    font-family: fontawesome, sans-serif !important;
+    font-family: "fontawesome", sans-serif !important;
 }
 
 .text-justify {
